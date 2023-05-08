@@ -85,7 +85,7 @@
                 <artifactId>gluonfx-maven-plugin</artifactId>
                 <version>${gluonfx.plugin.version}</version>
                 <configuration>
-                    <target>host</target>
+                    <target>${gluonfx.target}</target>
                     <attachList>
                         <list>display</list>
                         <list>lifecycle</list>
